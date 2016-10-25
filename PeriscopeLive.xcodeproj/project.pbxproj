@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FD8E6E6DED82D19EE2417BC /* libPods-PeriscopeLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A831D7E86F724C7A30BB11BF /* libPods-PeriscopeLive.a */; };
+		6397536D1DA8C64800357B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397536C1DA8C64800357B63 /* main.m */; };
+		639753701DA8C64800357B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6397536F1DA8C64800357B63 /* AppDelegate.m */; };
+		639753731DA8C64800357B63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639753721DA8C64800357B63 /* ViewController.m */; };
+		639753761DA8C64800357B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639753741DA8C64800357B63 /* Main.storyboard */; };
+		639753781DA8C64800357B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639753771DA8C64800357B63 /* Assets.xcassets */; };
+		6397537B1DA8C64800357B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639753791DA8C64800357B63 /* LaunchScreen.storyboard */; };
+		639753861DA8C64900357B63 /* PeriscopeLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 639753851DA8C64900357B63 /* PeriscopeLiveTests.m */; };
+		639753911DA8C64900357B63 /* PeriscopeLiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 639753901DA8C64900357B63 /* PeriscopeLiveUITests.m */; };
+		639753A21DA8E18300357B63 /* LAHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 639753A11DA8E18300357B63 /* LAHttp.m */; };
+		63A66EE31DBDB75A008D0DDB /* PeriscopeApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A66EE21DBDB75A008D0DDB /* PeriscopeApiManager.m */; };
+		63A66EE61DBDB76C008D0DDB /* PeriscopeApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A66EE51DBDB76C008D0DDB /* PeriscopeApi.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		639753821DA8C64900357B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639753601DA8C64800357B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639753671DA8C64800357B63;
+			remoteInfo = PeriscopeLive;
+		};
+		6397538D1DA8C64900357B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639753601DA8C64800357B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639753671DA8C64800357B63;
+			remoteInfo = PeriscopeLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		426FCE3F5D8AB6CB82B9FB98 /* Pods-PeriscopeLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriscopeLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-PeriscopeLive/Pods-PeriscopeLive.release.xcconfig"; sourceTree = "<group>"; };
+		639753681DA8C64800357B63 /* PeriscopeLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriscopeLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6397536C1DA8C64800357B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6397536E1DA8C64800357B63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6397536F1DA8C64800357B63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		639753711DA8C64800357B63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		639753721DA8C64800357B63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		639753751DA8C64800357B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		639753771DA8C64800357B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6397537A1DA8C64800357B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6397537C1DA8C64800357B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639753811DA8C64900357B63 /* PeriscopeLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriscopeLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		639753851DA8C64900357B63 /* PeriscopeLiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeriscopeLiveTests.m; sourceTree = "<group>"; };
+		639753871DA8C64900357B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6397538C1DA8C64900357B63 /* PeriscopeLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriscopeLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		639753901DA8C64900357B63 /* PeriscopeLiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeriscopeLiveUITests.m; sourceTree = "<group>"; };
+		639753921DA8C64900357B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639753A01DA8E18300357B63 /* LAHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAHttp.h; sourceTree = "<group>"; };
+		639753A11DA8E18300357B63 /* LAHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAHttp.m; sourceTree = "<group>"; };
+		63A66EE11DBDB75A008D0DDB /* PeriscopeApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriscopeApiManager.h; sourceTree = "<group>"; };
+		63A66EE21DBDB75A008D0DDB /* PeriscopeApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriscopeApiManager.m; sourceTree = "<group>"; };
+		63A66EE41DBDB76C008D0DDB /* PeriscopeApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriscopeApi.h; sourceTree = "<group>"; };
+		63A66EE51DBDB76C008D0DDB /* PeriscopeApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriscopeApi.m; sourceTree = "<group>"; };
+		A831D7E86F724C7A30BB11BF /* libPods-PeriscopeLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PeriscopeLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DA92BC1FDD15A1602C7E41 /* Pods-PeriscopeLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriscopeLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PeriscopeLive/Pods-PeriscopeLive.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639753651DA8C64800357B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD8E6E6DED82D19EE2417BC /* libPods-PeriscopeLive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6397537E1DA8C64900357B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639753891DA8C64900357B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17715CAAB40F542D2B5EBFBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A831D7E86F724C7A30BB11BF /* libPods-PeriscopeLive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6397535F1DA8C64800357B63 = {
+			isa = PBXGroup;
+			children = (
+				6397536A1DA8C64800357B63 /* PeriscopeLive */,
+				639753841DA8C64900357B63 /* PeriscopeLiveTests */,
+				6397538F1DA8C64900357B63 /* PeriscopeLiveUITests */,
+				639753691DA8C64800357B63 /* Products */,
+				B73505BC953BACD69628E25E /* Pods */,
+				17715CAAB40F542D2B5EBFBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		639753691DA8C64800357B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639753681DA8C64800357B63 /* PeriscopeLive.app */,
+				639753811DA8C64900357B63 /* PeriscopeLiveTests.xctest */,
+				6397538C1DA8C64900357B63 /* PeriscopeLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6397536A1DA8C64800357B63 /* PeriscopeLive */ = {
+			isa = PBXGroup;
+			children = (
+				6397539F1DA8E18300357B63 /* HTTP */,
+				6397536E1DA8C64800357B63 /* AppDelegate.h */,
+				6397536F1DA8C64800357B63 /* AppDelegate.m */,
+				639753711DA8C64800357B63 /* ViewController.h */,
+				639753721DA8C64800357B63 /* ViewController.m */,
+				639753741DA8C64800357B63 /* Main.storyboard */,
+				639753771DA8C64800357B63 /* Assets.xcassets */,
+				639753791DA8C64800357B63 /* LaunchScreen.storyboard */,
+				6397537C1DA8C64800357B63 /* Info.plist */,
+				6397536B1DA8C64800357B63 /* Supporting Files */,
+			);
+			path = PeriscopeLive;
+			sourceTree = "<group>";
+		};
+		6397536B1DA8C64800357B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6397536C1DA8C64800357B63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		639753841DA8C64900357B63 /* PeriscopeLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				639753851DA8C64900357B63 /* PeriscopeLiveTests.m */,
+				639753871DA8C64900357B63 /* Info.plist */,
+			);
+			path = PeriscopeLiveTests;
+			sourceTree = "<group>";
+		};
+		6397538F1DA8C64900357B63 /* PeriscopeLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				639753901DA8C64900357B63 /* PeriscopeLiveUITests.m */,
+				639753921DA8C64900357B63 /* Info.plist */,
+			);
+			path = PeriscopeLiveUITests;
+			sourceTree = "<group>";
+		};
+		6397539F1DA8E18300357B63 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				639753A01DA8E18300357B63 /* LAHttp.h */,
+				639753A11DA8E18300357B63 /* LAHttp.m */,
+				63A66EE11DBDB75A008D0DDB /* PeriscopeApiManager.h */,
+				63A66EE21DBDB75A008D0DDB /* PeriscopeApiManager.m */,
+				63A66EE41DBDB76C008D0DDB /* PeriscopeApi.h */,
+				63A66EE51DBDB76C008D0DDB /* PeriscopeApi.m */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		B73505BC953BACD69628E25E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA92BC1FDD15A1602C7E41 /* Pods-PeriscopeLive.debug.xcconfig */,
+				426FCE3F5D8AB6CB82B9FB98 /* Pods-PeriscopeLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639753671DA8C64800357B63 /* PeriscopeLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639753951DA8C64900357B63 /* Build configuration list for PBXNativeTarget "PeriscopeLive" */;
+			buildPhases = (
+				178D52D95BB7C9E02CD18CD6 /* Check Pods Manifest.lock */,
+				639753641DA8C64800357B63 /* Sources */,
+				639753651DA8C64800357B63 /* Frameworks */,
+				639753661DA8C64800357B63 /* Resources */,
+				2EFD59629606E984DCFA9C17 /* Embed Pods Frameworks */,
+				ACB32C6569029A4170AA34A1 /* Copy Pods Resources */,
+				6397539E1DA8CE8400357B63 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeriscopeLive;
+			productName = PeriscopeLive;
+			productReference = 639753681DA8C64800357B63 /* PeriscopeLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		639753801DA8C64900357B63 /* PeriscopeLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639753981DA8C64900357B63 /* Build configuration list for PBXNativeTarget "PeriscopeLiveTests" */;
+			buildPhases = (
+				6397537D1DA8C64900357B63 /* Sources */,
+				6397537E1DA8C64900357B63 /* Frameworks */,
+				6397537F1DA8C64900357B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639753831DA8C64900357B63 /* PBXTargetDependency */,
+			);
+			name = PeriscopeLiveTests;
+			productName = PeriscopeLiveTests;
+			productReference = 639753811DA8C64900357B63 /* PeriscopeLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6397538B1DA8C64900357B63 /* PeriscopeLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6397539B1DA8C64900357B63 /* Build configuration list for PBXNativeTarget "PeriscopeLiveUITests" */;
+			buildPhases = (
+				639753881DA8C64900357B63 /* Sources */,
+				639753891DA8C64900357B63 /* Frameworks */,
+				6397538A1DA8C64900357B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6397538E1DA8C64900357B63 /* PBXTargetDependency */,
+			);
+			name = PeriscopeLiveUITests;
+			productName = PeriscopeLiveUITests;
+			productReference = 6397538C1DA8C64900357B63 /* PeriscopeLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		639753601DA8C64800357B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = David.Dai;
+				TargetAttributes = {
+					639753671DA8C64800357B63 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W4Y3V6ELG3;
+						ProvisioningStyle = Automatic;
+					};
+					639753801DA8C64900357B63 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 639753671DA8C64800357B63;
+					};
+					6397538B1DA8C64900357B63 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 639753671DA8C64800357B63;
+					};
+				};
+			};
+			buildConfigurationList = 639753631DA8C64800357B63 /* Build configuration list for PBXProject "PeriscopeLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6397535F1DA8C64800357B63;
+			productRefGroup = 639753691DA8C64800357B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639753671DA8C64800357B63 /* PeriscopeLive */,
+				639753801DA8C64900357B63 /* PeriscopeLiveTests */,
+				6397538B1DA8C64900357B63 /* PeriscopeLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639753661DA8C64800357B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6397537B1DA8C64800357B63 /* LaunchScreen.storyboard in Resources */,
+				639753781DA8C64800357B63 /* Assets.xcassets in Resources */,
+				639753761DA8C64800357B63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6397537F1DA8C64900357B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6397538A1DA8C64900357B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		178D52D95BB7C9E02CD18CD6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2EFD59629606E984DCFA9C17 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeriscopeLive/Pods-PeriscopeLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6397539E1DA8CE8400357B63 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/Fabric/run c66fa96cafcca3c3a8e9d12a55f24d72ae137c24 07fae465c56140ac50062e7ef4bdec51cee860dfa7e1d373bb7badc162e9bfd5";
+		};
+		ACB32C6569029A4170AA34A1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeriscopeLive/Pods-PeriscopeLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639753641DA8C64800357B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A66EE31DBDB75A008D0DDB /* PeriscopeApiManager.m in Sources */,
+				63A66EE61DBDB76C008D0DDB /* PeriscopeApi.m in Sources */,
+				639753A21DA8E18300357B63 /* LAHttp.m in Sources */,
+				639753731DA8C64800357B63 /* ViewController.m in Sources */,
+				639753701DA8C64800357B63 /* AppDelegate.m in Sources */,
+				6397536D1DA8C64800357B63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6397537D1DA8C64900357B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639753861DA8C64900357B63 /* PeriscopeLiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639753881DA8C64900357B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639753911DA8C64900357B63 /* PeriscopeLiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		639753831DA8C64900357B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639753671DA8C64800357B63 /* PeriscopeLive */;
+			targetProxy = 639753821DA8C64900357B63 /* PBXContainerItemProxy */;
+		};
+		6397538E1DA8C64900357B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639753671DA8C64800357B63 /* PeriscopeLive */;
+			targetProxy = 6397538D1DA8C64900357B63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		639753741DA8C64800357B63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639753751DA8C64800357B63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		639753791DA8C64800357B63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6397537A1DA8C64800357B63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		639753931DA8C64900357B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		639753941DA8C64900357B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639753961DA8C64900357B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3DA92BC1FDD15A1602C7E41 /* Pods-PeriscopeLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4Y3V6ELG3;
+				INFOPLIST_FILE = PeriscopeLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidPersonal.PeriscopeLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		639753971DA8C64900357B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426FCE3F5D8AB6CB82B9FB98 /* Pods-PeriscopeLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4Y3V6ELG3;
+				INFOPLIST_FILE = PeriscopeLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidPersonal.PeriscopeLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		639753991DA8C64900357B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PeriscopeLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidPersonal.PeriscopeLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeriscopeLive.app/PeriscopeLive";
+			};
+			name = Debug;
+		};
+		6397539A1DA8C64900357B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PeriscopeLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidPersonal.PeriscopeLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeriscopeLive.app/PeriscopeLive";
+			};
+			name = Release;
+		};
+		6397539C1DA8C64900357B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PeriscopeLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidPersonal.PeriscopeLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PeriscopeLive;
+			};
+			name = Debug;
+		};
+		6397539D1DA8C64900357B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PeriscopeLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidPersonal.PeriscopeLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PeriscopeLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639753631DA8C64800357B63 /* Build configuration list for PBXProject "PeriscopeLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639753931DA8C64900357B63 /* Debug */,
+				639753941DA8C64900357B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639753951DA8C64900357B63 /* Build configuration list for PBXNativeTarget "PeriscopeLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639753961DA8C64900357B63 /* Debug */,
+				639753971DA8C64900357B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639753981DA8C64900357B63 /* Build configuration list for PBXNativeTarget "PeriscopeLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639753991DA8C64900357B63 /* Debug */,
+				6397539A1DA8C64900357B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6397539B1DA8C64900357B63 /* Build configuration list for PBXNativeTarget "PeriscopeLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6397539C1DA8C64900357B63 /* Debug */,
+				6397539D1DA8C64900357B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 639753601DA8C64800357B63 /* Project object */;
+}
